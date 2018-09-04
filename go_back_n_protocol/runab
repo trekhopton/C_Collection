@@ -1,0 +1,19 @@
+#!/bin/bash
+
+input=$1
+
+./a.exe <<'EOF'
+18
+0.0
+0.2
+2
+100
+1
+EOF
+
+#num of messages
+#loss prob
+#corrupt prob
+#direction
+#message time
+#TRACE
